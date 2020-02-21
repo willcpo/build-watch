@@ -1,5 +1,5 @@
 ## How To Add A Query:
-- create a query Object:
+- create a query Object in Queries.js:
     - **flag**: This is the argument that must be added to the run command for this query to be active
     - **regex**: This is the regex that will find the log line you are trying to query for
     - **customExtract**: (line) => string[][] 
